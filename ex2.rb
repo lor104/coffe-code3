@@ -5,7 +5,7 @@ def reverse(array)
   array.each do |word|
     new_array << word.reverse
   end
-  return new_array
+  return new_array.reverse
 end
 
 
